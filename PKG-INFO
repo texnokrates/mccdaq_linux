@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: mccdaq_linux
+Version: 1.4.8
+Summary: Python drivers for Measurement Computing devices (mccdaq.com) on linux
+Home-page: UNKNOWN
+Author: Guillaume Lepert
+Author-email: guillaume.lepert07@imperial.ac.uk
+License: UNKNOWN
+Description: Python drivers for data acquisition hardware from Measurement Computing (http://mccdaq.com/).
+        
+            Currently only USB26xx devices are supported, but we could add more.
+            
+            Complete support for timers, counters, single-sample digital and analog input/output,
+            waveform generation, synchronous analog input/output scanning, external/internal triggering;
+            in a user-friendly, interactive, object-oriented format.
+            
+            Installation notice
+            -------------------
+            
+            `mccdaq_linux` expects:
+            
+              1) that Warren Jaspers' C drivers are already installed (see ftp://lx10.tx.ncsu.edu/pub/Linux/drivers/USB/)
+              
+              2) that said driver's source files be under /opt/mcc-libhid.
+            
+            This being the case, use pip as usual::
+            
+                $ pip2.7 install mccdaq_linux
+              
+            
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Scientific/Engineering
